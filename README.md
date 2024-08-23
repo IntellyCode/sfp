@@ -31,3 +31,15 @@ This project provides a tool for reading PDF files, extracting abstracts from th
 
 ## Usage
 To run the program create a /data and /output directories in the project directory. To the /data directory add your pdf file. Open the config.json file and adjust the pdf_path and output_path variables by changing only the file part. You can then run main.py using a python interpreter. 
+
+## Troubleshooting
+
+- File Not Found: Ensure that the path to the PDF file is correct and that the file exists.
+- Dependency Issues: Verify that all required libraries are installed.
+    ```sh
+      pip install requirements.txt
+  
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
